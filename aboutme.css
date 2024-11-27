@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: #0b0b0b;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 70px;
+  font-size: 18px;
+  background-color: #0b0b0b;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  position: fixed;
+  transition: all 300ms ease-in-out;
+  height: 80px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.navbar nav {
+  list-style: none;
+  display: flex;
+  gap: 150px;
+}
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0b0b0b98;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 16px 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: #0b0b0b7c;
+}
+
+.navbar.shrink {
+  transform: translateX(200px);
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: #ffffffa1;
+}
+.info-container {
+  display: flex;
+  align-items: left;
+}
+
+.text1 {
+  color: white;
+  margin-top: 150px;
+  margin-left: 50px;
+  font-size: 90px;
+  text-align: left;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  background-color: #ef3a5d;
+  border-radius: 50%;
+  margin-top: 250px;
+  margin-left: 50px;
+}
+.batas {
+  color: white;
+  border: 1px solid;
+  margin-top: 55px;
+  margin-left: 55px;
+  width: 75rem;
+}
+/* info saya */
+.aboutme-container {
+  display: flex; 
+  align-items: flex-start; 
+}
+
+.image {
+  margin-left: 90px;
+  margin-top: 50px;
+  max-width: 40%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column; 
+  color: white;
+}
+
+.text .p1 {
+  margin-top: 170px;
+  margin-right: 100px;
+  text-align: justify;
+  padding: 10px 20px;
+  line-height: 1.5;
+}
+
+.text .p2 {
+  margin-top: 50px;
+  text-align: justify;
+  padding: 20px 20px;
+  margin-right: 100px;
+  line-height: 1.5;
+}
+/* FOOTER */
+
+.footer-content {
+  flex-direction: row;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  padding-bottom: 20px;
+  color: white;
+  border-top: 1px solid rgb(56, 56, 56);
+  margin-top: 100px;
+}
+.tagline p {
+  margin-top: 30px;
+  text-align: center;
+}

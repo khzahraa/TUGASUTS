@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO</title>
+  <link rel="icon" href="Images/logo.png" sizes="16x16" type="image/x-icon">
+  <link rel="stylesheet" href="utsstyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3fd4dcde6f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- navbar dan sidebar-->
+  <header class="navbar">
+    <section class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </section>
+    <nav class="nav">
+      <a href="tugasutswebdev.html">Home</a>
+      <a href="Gallery.html">Gallery</a>
+      <div class="dropdown">
+        <a href="#blog">Blog</a>
+        <div class="dropdown-content">
+          <a href="Chapter1.html">Chapter 1</a>
+          <a href="Chapter2.html">Chapter 2</a>
+          <a href="Chapter3.html">Chapter 3</a>
+        </div>
+    </nav>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+    <ul>
+      <li>More Info</li>
+      <li><a href="aboutme.html"></i>About Me</a></li>
+      <li><a href="contact.html"></i>Contact</a></li>
+    </ul>
+  </aside>
+
+  <!-- landingpage -->
+  <section class="landingpage">
+    <div class="container">
+      <div class="content">
+        <h2>PORTFOLIO</h2>
+        <h3>──── ୨୧ ──── Graphic Design & Copy Writing</h3>
+      </div>
+      <a href="Gallery.html" class="button">EXPLORE</a>
+    </div>
+  </section>
+
+  <!-- intro -->
+  <section>
+    <div class="intro" id="#Sbutton">
+      <div class="text">
+        <h1>HELLO👋<br>IT’S ZAHRA HERE</h1>
+
+        <br>
+
+        <h1></h1>
+        <p id="p1">I’m a Library Science undergraduate<br>
+          student at UIN Jakarta with 2 years of<br>
+          experience in graphic design & CW (a bit hehe).</p1>
+          <br>
+
+        <h1></h1>
+        <p id="p2">Passionate about creating design and<br>
+          always eager to grow, connect, and bring <br>
+          fresh ideas to life!</p2>
+      </div>
+      <img src="Images/zahra.png" alt="Zahra">
+    </div>
+
+    <!-- educatin & experience -->
+    <section class="edEx">
+      <div class="container1">
+        <div class="text-top">EDUCATION & <br> EXPERIENCE</div>
+        <div class="text-bottom">
+          <div class="text-item">Undergraduate of Library Science<br>at UIN Jakarta<br>2022 - Now</div>
+          <div class="text-item">Staff PDD of Freshtival (2023)<br> Coordinator of Mubes & Famgath Fresh (2023)<br>
+            Internship in Fataya Media (Dec 2023 - Mar 2024)</div>
+          <div class="text-item">Member of <b>Ministry Media and Opinion FRESH</b> (2024 - Now)<br>Creative Teams of
+            <b>Thinkerbooks</b> (2024 - Now)<br>Graphic Design Team for the <b>Faculty of Adab and Humanities</b><br>
+            Social Media at <b>UIN Jakarta</b> (2024 - Now)
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skill & expertise -->
+    <section class="skills">
+      <div class="komponenSkill">
+        <h1>SKILL & EXPERTISE</h1>
+        <div class="judul">
+          <h3>Software Skills</h3>
+          <h3>Personal Skills</h3>
+        </div>
+        <div class="skill-container">
+          <div class="software">
+            <img src="Images/ibis.png" alt="Ibis Paint">
+            <img src="Images/figma.png" alt="Figma">
+            <img src="Images/canva.png" alt="Canva">
+          </div>
+          <div class="personal">
+            <p>Creative ⌇⌇ Responsible ⌇⌇ Willingness to learn</p>
+            <p>Communicative ⌇⌇ Team work &
+              collaboration</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sneak peak gallery -->
+    <section id="sneakpeak-gallery">
+      <div class="text">
+        <h1 id="h1">Let's</h1>
+        <h1 id="h2">Take a 𓍯𓂃𓂃</h1>
+        <h1 id="h3">Look</h1>
+      </div>
+    </section>
+
+    <!-- artikel -->
+
+    <div class="sneakpeak-artikel">See My Blog</div>
+    <div class="card-container">
+      <div class="card">
+        <h3>GAWAT! SEKARANG TURNITIN SUDAH BISA DETEKSI CHATGPT/AI?</h3>
+        <a class="read-more" href="Chapter1.html">Read More</a>
+      </div>
+      <div class="card">
+        <h3>Self-Love: Hadiah Terbaik untuk Diri Sendiri</h3>
+        <a class="read-more" href="Chapter2.html">Read More</a>
+      </div>
+      <div class="card">
+        <h3>Self-Procrastinate: Ketika Kamu Jadi Ahli Menunda-nunda</h3>
+        <a class="read-more" href="Chapter3.html">Read More</a>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="tagline">
+          <p>Copyright © 2024. All rights reserved ・ Design by Kholidyah Zaharani (11220251000056)</p>
+        </div>
+      </div>
+    </footer>
+    </Div>
+
+    </div>
+  </section>
+
+
+
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const sidebar = document.getElementById('sidebar');
+    const navbar = document.querySelector('.navbar');
+
+    menuToggle.addEventListener('click', () => {
+      sidebar.classList.toggle('open');
+      navbar.classList.toggle('shrink');
+    });
+
+    var lastScrollTop = 0;
+    navbar = document.getElementById("navbar")
+    window.addEventListener("scroll", function () {
+      var scrollTop = window.pageYOffset || document
+        .documentElement.scrollTop;
+      if (scrollTop > lastScrollTop) {
+        navbar.style.top = '-80px';
+      } else {
+        navbar.style.top = "0";
+      }
+      lastScrollTop = scrollTop;
+    })
+
+
+  </script>
+</body>
+
+</html>
