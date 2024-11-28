@@ -139,7 +139,7 @@ body {
 }
 
 .landingpage {
-  background: url(Images/PORTFOLIO2.png) no-repeat;
+  background: url(PORTFOLIO2.png) no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -243,7 +243,7 @@ body {
   margin-top: -20px;
 }
 .edEx {
-  background: url(Images/bg3.png) no-repeat;
+  background: url(bg3.png) no-repeat;
   background-position: center;
   background-size: cover;
   height: 155vh;
@@ -291,7 +291,7 @@ body {
   background-color: rgba(0, 0, 0, 0.329);
 }
 .skills {
-  background: url(Images/bg4.png) no-repeat;
+  background: url(bg4.png) no-repeat;
   background-position: center;
   background-size: cover;
   height: 120vh;
