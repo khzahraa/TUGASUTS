@@ -159,6 +159,7 @@ body {
 .row1 {
   display: grid;
   grid-template-columns: auto 1fr;
+  gap: 50px;
 }
 
 .row2 {
